@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      body{
+            background-color: blanchedalmond;
+        }
+      h2{
+        text-align: center;
+        color: rgb(80, 7, 148);
+      }
+      h3{
+       text-align: center;
+       color: rgb(19, 19, 20);
+      }
+      p{
+        text-align: justify;
+        color: rgb(219, 78, 22);
+
+      }
+    </style>
+</head>
+<body> 
+     <h2>  <u>Internal CSS</u></h2>
+     <h3> I used element selectors</h3>
+
+     <p> Internal CSS is used to apply within the HTML file using style attributes.</p>
+     <p> The Style attributes is used under the head section. it is useful for adding page-spacing that affect only on a single webpages.</p>
+     <br>
+     <h2><u>Element Selectors</u></h2>
+     <p>Element Selectors of a specific type,such as paragraps and headings</p>    
+
+
+    
+</body>
+</html>
+
+    SECOND TASK
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body style="background-color: brown;">
+    
+<h1 style="color: black; text-align: center;">  Inline CSS </h1>
+<p style="color: beige; text-align: justify;"> Inline CSS method used to apply casecadding style sheets rules directly to a sigle HTML page. <br>
+    it uses the style attribute within the element's opening HTML tag instead of using selectors in seperate file.
+
+<ul>
+    <li>Selector: Targets the HTML element "h1" to apply styles.</li>
+    <li>Declaration Black: Enclosed in curly braces{}, contains one or more declaration.</li>
+    <li>property: specifes the style attribute in  like color.</li>
+    <li>value: Define the property setting , here the "blue" is text color</li>
+    <li>This is main fuction of the CSS</li>
+</ul>
+    </p>
+</body>
+</html>
+
+3RD Task
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="css3.css">
+</head>
+<body id="head">
+   <h1>External CSS</h1>
+   <p class="one">External CSS means u can create the sepperate .css file and connecting it our 
+      HTML file through the link tag. This is mainly used for long webpage creation.</p>
+      <ul class="two">Advantages
+        <li> Modity one isolated document seamlesly alter design across thousands of pages instantly</li>
+        <li>Browser caches your .css asset natively, vastly accelerating succesive page rendering time</li>
+       </ul>
+
+       <h2> combinator selectors</h2>
+       <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illum doloribus delectus? In laborum cum, tempore non, molestias nam omnissa
+         fugit sunt blanditiis libero assumenda quia dolorem? Dolorum, expedita! Quasi, odio dolorem reprehenderit eligendi earum pariatur voluptatem est aspernatur quo cum. Cupiditate asperiores quod maxime sunt veritatis commodi repellendus sed! </div>
+     <p>CSS follows a hierarchy-Inline, Internal, External styles.
+        Specificity decides which selector has more weight.
+        Later rules override earlier ones if they have equal priority.</p>
+      
+</body>
+</html> 
+
+*head{
+    background-color: bisque;
+}
+h1{
+    color: brown;
+    text-align: center;
+}
+.one{
+    color: blueviolet;
+    text-align: left;
+    
+}
+.two{  
+   border: 2px;
+   border-width: 3px;
+   border-color: green;
+   border-style: dotted; 
+   padding: 10px;
+   text-align: justify;  
+   background-color: chocolate;
+   color: darkblue; 
+  }
+   ul{
+    display: inline-block;
+    width: 75%;
+   }
+
+   h2{
+    color: brown;
+    text-align: center;
+    
+   }
+   div,p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-style: italic;
+   }
+
